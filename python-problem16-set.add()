@@ -1,0 +1,7 @@
+N=int(input())
+set1=set()
+for i in range(N):
+    stamp=input()
+    set1.add(stamp)
+print(len(set1))
+    
