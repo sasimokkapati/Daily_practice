@@ -1,0 +1,19 @@
+numbers = [15, 42, 8, 27, 63, 19]
+
+largest = numbers[0]
+smallest = numbers[0]
+
+for i in numbers:
+    if i > largest:
+        largest = i
+
+for j in numbers:
+    if j < smallest:
+        smallest = j
+
+print("List:", numbers)
+print("Largest:", largest)
+print("Smallest:", smallest)
+print("Sum:", sum(numbers))
+print("Average:", sum(numbers) / len(numbers))
+print("Reverse:", numbers[::-1])
