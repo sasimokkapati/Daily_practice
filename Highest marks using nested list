@@ -1,0 +1,15 @@
+students = [
+    ["Sasi", 85],
+    ["Teja", 92],
+    ["Harshi", 78]
+]
+
+largest = students[0][1]
+top_student = students[0][0]
+
+for student in students:
+    if student[1] > largest:
+        largest = student[1]
+        top_student = student[0]
+
+print(top_student)
