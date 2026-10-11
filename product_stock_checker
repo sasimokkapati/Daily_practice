@@ -1,0 +1,6 @@
+
+products = [("Pen", 5), ("Book", 15), ("Bag", 8)]
+
+for product in products:
+    if product[1] < 10:
+        print(product[0])
