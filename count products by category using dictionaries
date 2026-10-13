@@ -1,0 +1,13 @@
+products = {
+    "Laptop": "Electronics",
+    "Chair": "Furniture",
+    "Phone": "Electronics",
+    "Table": "Furniture",
+    "Headphones": "Electronics"
+}
+print("Laptop Category:", products["Laptop"])
+count = 0
+for category in products.values():
+    if category == "Electronics":
+        count += 1
+print("Electronics Count:", count)
